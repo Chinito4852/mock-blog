@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>bLog</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Playfair+Display&display=swap" rel="stylesheet">
+    <!-- Latest compiled and minified Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="./styles.css" type="text/css" rel="stylesheet">
+    <!-- Fontawesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- Site css -->
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">
+        <img src="./img/brand.png" alt="">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Sign In</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Archive</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <i class="fas fa-ellipsis-h"></i>
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">About</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Privacy</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Contact Us</a>
+            </div>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-info my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+
+    <!-- Picture by Arnaud Jaegers at Unsplash.com -->
+    <div id="featured">
+      <div id="featured-caption">
+        <h5 id="featured-header">Featured Article</h2>
+        <h2 id="featured-title" class="title">Featured Title</h2>
+        <p id="featured-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lobortis massa tincidunt varius suscipit. Maecenas in pretium dolor, a ultrices.</p>
+      </div>
+    </div>
+
+    <div id="top-posts">
+      <div class="container">
+        <h2 id="top-posts-label">Top Stories</h2>
+
+        <div class="row top-post-row">
+          <div class="col-md-7">
+            <!-- Picture by Brook Cagle at Unsplash.com -->
+            <img src="./img/top-1.jpg" alt="" class="top-img">
+          </div>
+          <div class="col-md-5">
+            <h3 class="title">Top Title</h3>
+            <h6>5 days ago</h6>
+            <p class="top-description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consequat enim nulla, ac hendrerit risus efficitur quis. Donec fringilla porta pharetra. Praesent scelerisque sollicitudin orci vitae egestas. Quisque nec efficitur dui. Maecenas nunc lectus, elementum ut posuere vel, molestie nec mauris.
+            </p>
+            <button class="btn btn-primary">Read More</button>
+          </div>
+        </div>
+
+        <div class="row top-post-row">
+          <div class="col-md-7">
+            <!-- Picture by Oliver Schweizer at Unsplash.com -->
+            <img src="./img/top-2.jpg" alt="" class="top-img">
+          </div>
+          <div class="col-md-5">
+            <h3 class="title">Top Title</h3>
+            <h6>5 days ago</h6>
+            <p class="top-description">
+              Phasellus leo lacus, volutpat at enim in, rutrum interdum felis. Ut dictum venenatis odio, non sagittis diam molestie et. Morbi euismod eget ex sed euismod. Interdum et malesuada fames ac ante ipsum primis in faucibus. Mauris interdum blandit dignissim.
+            </p>
+            <button class="btn btn-primary">Read More</button>
+          </div>
+        </div>
+
+        <div class="row top-post-row">
+          <div class="col-md-7">
+            <!-- Picture by Liam Charmer at Unsplash.com -->
+            <img src="./img/top-3.jpg" alt="" class="top-img">
+          </div>
+          <div class="col-md-5">
+            <h3 class="title">Top Title</h3>
+            <h6>1 week ago</h6>
+            <p class="top-description">
+              Vivamus purus diam, imperdiet eget iaculis ut, congue id dolor. Maecenas nisi ante, vestibulum sit amet ex cursus, egestas porttitor arcu. Suspendisse augue ligula, pharetra dignissim elementum consectetur, tincidunt at justo. Nullam aliquam justo orci, ac molestie sapien varius eu. Sed ut nibh leo.
+            </p>
+            <button class="btn btn-primary">Read More</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div id="latest-posts">
+      <div class="container">
+        <h2 id="latest-posts-label">Latest Stories</h2>
+        <div class="row">
+          <div class="col-md-6">
+            <!-- Picture by Jasper Bennett at Unsplash.com -->
+            <div id="latest-block-lg">
+              <div id="latest-block-lg-txt">
+                <h5 class="latest-title-lg">Latest Title</h5>
+                <p>Ut sed turpis ut massa varius faucibus. Quisque rhoncus erat in nunc vulputate, eu bibendum massa tincidunt. Quisque a euismod mi. Nulla facilisi. Integer eu purus bibendum, hendrerit dolor vel, consectetur purus. Mauris luctus, arcu vitae...</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="latest-block-sm">
+              <!-- Picture by Jason Sung at Unsplash.com -->
+              <img src="./img/latest-2.jpg" alt="" class="latest-img">
+              <h5 class="latest-title-sm">Latest Title</h5>
+            </div>
+            <div class="latest-block-sm">
+              <!-- Picture by Jason Blackeye at Unsplash.com -->
+              <img src="./img/latest-3.jpg" alt="" class="latest-img">
+              <h5 class="latest-title-sm">Latest Title</h5>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="latest-block-sm">
+              <!-- Picture by Michael Lee at Unsplash.com -->
+              <img src="./img/latest-4.jpg" alt="" class="latest-img">
+              <h5 class="latest-title-sm">Latest Title</h5>
+            </div>
+            <div class="latest-block-sm">
+              <!-- Picture by Heidi Fin at Unsplash.com -->
+              <img src="./img/latest-5.jpg" alt="" class="latest-img">
+              <h5 class="latest-title-sm">Latest Title</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div id="editor-picks">
+      <div class="container"><h2 id="editor-label">Editor's Picks</h2></div>
+      <div class="container-fluid">
+        <div class="row" id="editor-row">
+          <div class="col-md no-gutters overlay-block">
+            <!-- Picture by Parrish Freeman at Unsplash.com -->
+            <img src="./img/editor-1.jpg" alt="" class="editor-img">
+            <div class="editor-overlay" style="background-color: #ec9994"></div>
+            <div class="editor-overlay-content">
+              <h5 class="editor-title">Editor Title</h5>
+            </div>
+          </div>
+          <div class="col-md no-gutters overlay-block">
+            <!-- Picture by Saurav Thapa Shrestha at Unsplash.com -->
+            <img src="./img/editor-2.jpg" alt="" class="editor-img">
+            <div class="editor-overlay" style="background-color: #eedb9e"></div>
+            <div class="editor-overlay-content">
+              <h5 class="editor-title">Editor Title</h5>
+            </div>
+          </div>
+          <div class="col-md no-gutters overlay-block">
+            <!-- Picture by Halil Ibrahim Cetinkaya at Unsplash.com -->
+            <img src="./img/editor-3.jpg" alt="" class="editor-img">
+            <div class="editor-overlay" style="background-color: #9eeb9c"></div>
+            <div class="editor-overlay-content">
+              <h5 class="editor-title">Editor Title</h5>
+            </div>
+          </div>
+          <div class="col-md no-gutters overlay-block">
+            <!-- Picture by Moriah Wolfe at Unsplash.com -->
+            <img src="./img/editor-4.jpg" alt="" class="editor-img">
+            <div class="editor-overlay" style="background-color: #9dd4ee"></div>
+            <div class="editor-overlay-content">
+              <h5 class="editor-title">Editor Title</h5>
+            </div>
+          </div>
+          <div class="col-md no-gutters overlay-block">
+            <!-- Picture by Michelle Spollen at Unsplash.com -->
+            <img src="./img/editor-5.jpg" alt="" class="editor-img">
+            <div class="editor-overlay" style="background-color: #c4a6eb"></div>
+            <div class="editor-overlay-content">
+              <h5 class="editor-title">Editor Title</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="sign-up">
+      <div class="container" id="sign-up-container">
+        <h2 id="sign-up-label">Stay Updated</h2>
+        <h6>Sign up and get the latest news from bLog.</h6>
+        <form class="align-items-center form-inline" id="sign-up-form">
+          <input type="text" class="form-control mr-sm-2" id="sign-up-bar" placeholder="Your email address">
+          <button class="btn btn-outline-info">Sign Up</button>
+        </form>
+        
+      </div>
+    </div>
+
+    <footer id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <ul class="list-unstyled">
+              <li>&copy; Tristin Wong, 2021</li>
+            </ul>
+          </div>
+          <div class="col-md-2" style="text-transform: uppercase">
+            About
+          </div>
+          <div class="col-md-2" style="text-transform: uppercase">
+            Privacy
+          </div>
+          <div class="col-md-2" style="text-transform: uppercase">
+            Contact Us
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Site script -->
+    <script src="./script.js"></script>
+  </body>
+</html>
