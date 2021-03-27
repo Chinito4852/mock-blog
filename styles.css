@@ -205,4 +205,14 @@
   padding-bottom: 2vh;
 }
 
+.footer-item {
+  text-transform: uppercase;
+}
+
+#featured-title, .latest-title-lg,
+.latest-title-sm, .overlay-block,
+.footer-item {
+  cursor: pointer;
+}
+
 /*# sourceMappingURL=styles.css.map */

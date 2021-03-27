@@ -212,3 +212,13 @@ $secondaryBackgroundColor:#222222;
     padding-top: 3vh;
     padding-bottom: 2vh;
 }
+
+.footer-item {
+    text-transform: uppercase;
+}
+
+#featured-title, .latest-title-lg,
+.latest-title-sm, .overlay-block,
+.footer-item {
+    cursor: pointer;
+}
